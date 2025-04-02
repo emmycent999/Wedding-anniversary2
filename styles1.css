@@ -1,0 +1,30 @@
+:root {
+    --gold: #FFD700;
+    --blush-pink: #ffd700;
+    --white: #FFFFFF;
+  }
+  
+
+  button {
+    background-color: var(--gold);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: var(--blush-pink);
+  }
+  
+  footer {
+    background-color: var(--navy-blue);
+    color: var(--white);
+  }
+  
+  footer a {
+    color: var(--blush-pink);
+    margin: 0 10px;
+  }
+  
+  /* Add timeline, gallery, and form styling here */
